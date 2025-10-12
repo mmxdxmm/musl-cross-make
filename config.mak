@@ -33,14 +33,14 @@ OUTPUT = $(CURDIR)/out/binutils
 # Setting a blank version for linux will suppress installation of kernel
 # headers, which are not needed unless compiling programs that use them.
 
-BINUTILS_VER = 2.44
+BINUTILS_VER = 2.25.1
 GCC_VER = 15.1.0
 #MUSL_VER = 1.2.5
 #GMP_VER = 
 #MPC_VER = 
 #MPFR_VER = 
 #ISL_VER = 
-LINUX_VER = 4.19.90
+LINUX_VER = headers-4.19.88-1
 
 # By default source archives are downloaded with wget. curl is also an option.
 
