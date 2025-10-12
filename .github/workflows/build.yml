@@ -47,7 +47,7 @@ jobs:
       
       - name: Build
         run: |
-          bash build.sh > out.txt
+          make install -j$(nproc) > out.txt
           cd out
           zip -r -y -9 binutils.zip binutils
           cp binutils.zip ../binutils.zip
