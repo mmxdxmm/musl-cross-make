@@ -1,4 +1,6 @@
-MAKE_ARGS="CC=clang CXX=clang++"
-CFLAGS="-Os -flto=thin -Wno-error"
+export PATH="/lib/llvm-20/bin:$PATH"
 
-make install CFLAGS="$CFLAGS" CXXFLAGS="$CFLAGS" $MAKE_ARGS -j$(nproc)
+make install CC=clang CXX=clang++ -j$(nproc)
+
+mv -f config.mak.bak config.mak
+make install CC=clang CXX=clang++ -j$(nproc)

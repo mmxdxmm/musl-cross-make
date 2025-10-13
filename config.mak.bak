@@ -1,7 +1,7 @@
 # TARGET = i486-linux-musl
 # TARGET = x86_64-linux-musl
-#TARGET = arm-linux-musleabi
-TARGET = aarch64-linux-musl
+TARGET = arm-linux-musleabi
+#TARGET = aarch64-linux-musl
 # TARGET = arm-linux-musleabihf
 # TARGET = sh2eb-linux-muslfdpic
 # ...
