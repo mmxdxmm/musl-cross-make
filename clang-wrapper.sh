@@ -12,7 +12,14 @@ UNSUPPORTED_ARGS=(
     "-fno-align-labels"
     "-fno-prefetch-loop-arrays"
     "-fno-tree-loop-distribute-patterns"
+    "-Werror=discarded-qualifiers"
+    "-Werror=discarded-array-qualifiers"
+    "-Wdiscarded-qualifiers"
+    "-Wdiscarded-array-qualifiers"
+    "-Wunused-command-line-argument"
     "-print-multi-os-directory"
+    "-Wshadow=local"
+    "-Wgnu-zero-variadic-macro-arguments"
 )
 
 # 构建新的参数列表
