@@ -23,8 +23,8 @@ jobs:
         run: |
           bash build.sh > out.txt
           cd out
-          zip -r -y -9 binutils.zip binutils
-          cp binutils.zip ../binutils.zip
+          tar -czf binutils.tar.gz --dereference binutils
+          cp binutils.tar.gz ../binutils.tar.gz
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
