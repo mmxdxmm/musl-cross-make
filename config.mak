@@ -11,7 +11,7 @@ OUTPUT = /root/binutils
 
 BINUTILS_VER = 2.33.1
 GCC_VER = 15.1.0
-#MUSL_VER = 1.2.4
+#MUSL_VER = 1.2.5
 #GMP_VER = 
 #MPC_VER = 
 #MPFR_VER = 
