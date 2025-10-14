@@ -21,10 +21,7 @@ jobs:
       
       - name: Build
         run: |
-          bash build.sh > out.txt
-          cd out
-          zip -r -9 binutils.zip binutils
-          cp binutils.zip ../binutils.zip
+          bash build.sh 2> out.txt
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
