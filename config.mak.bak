@@ -10,7 +10,7 @@ OUTPUT = /root/binutils
 # OUTPUT = /usr/local
 
 BINUTILS_VER = 2.33.1
-GCC_VER = 14.3.0
+GCC_VER = 15.1.0
 #MUSL_VER = 1.2.4
 #GMP_VER = 
 #MPC_VER = 
