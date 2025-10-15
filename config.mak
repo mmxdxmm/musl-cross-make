@@ -6,12 +6,12 @@ TARGET = aarch64-linux-musl
 # TARGET = sh2eb-linux-muslfdpic
 # ...
 
-OUTPUT = /root/binutils
+OUTPUT = /home/binutils
 # OUTPUT = /usr/local
 
 BINUTILS_VER = 2.33.1
 GCC_VER = 15.1.0
-#MUSL_VER = 1.2.5
+MUSL_VER = 1.2.5
 #GMP_VER = 
 #MPC_VER = 
 #MPFR_VER = 
