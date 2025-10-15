@@ -6,7 +6,7 @@ TARGET = aarch64-linux-musl
 # TARGET = sh2eb-linux-muslfdpic
 # ...
 
-OUTPUT = /home/binutils
+OUTPUT = /root/binutils
 # OUTPUT = /usr/local
 
 BINUTILS_VER = 2.33.1

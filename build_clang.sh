@@ -10,6 +10,6 @@ make install CC="clang -Qunused-arguments -Wno-unknown-warning-option" CXX="clan
 #make install CC="$PWD/clang-wrapper.sh" CXX="$PWD/clang-wrapper.sh" -j$(nproc)
 
 out_dir=$PWD
-cd /home
+cd /root
 zip -r -9 binutils.zip binutils
 cp binutils.zip $out_dir/binutils.zip
