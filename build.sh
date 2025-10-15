@@ -1,6 +1,6 @@
-make install CC="musl-gcc" CXX="musl-gcc" -j$(nproc)
+make install -j$(nproc)
 mv -f config.mak.bak config.mak
-make install CC="musl-gcc" CXX="musl-gcc" -j$(nproc)
+make install -j$(nproc)
 
 out_dir=$PWD
 cd /root
