@@ -13,7 +13,7 @@ jobs:
 
       - name: Update and Install Dependencies
         run: |
-          sudo apt update && sudo apt install build-essential libc6-dev libssl-dev libncurses-dev flex bison ccache lz4 zip unzip wget git libstdc++-14-dev -y && sudo apt upgrade -y
+          sudo apt update && sudo apt install build-essential libc6-dev libssl-dev libncurses-dev flex bison ccache lz4 zip unzip wget git -y && sudo apt upgrade -y
 
       - name: Install LLVM
         run: |
