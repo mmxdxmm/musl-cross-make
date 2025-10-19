@@ -1,6 +1,6 @@
 export PATH="/lib/llvm-20/bin:$PATH"
 
-set_CC="ccache clang -Os -ffunction-sections -fdata-sections -Wno-error -Qunused-arguments -Wno-unknown-warning-option"
+set_CC="clang -Os -ffunction-sections -fdata-sections -Wno-error -Qunused-arguments -Wno-unknown-warning-option"
 set_LD="ld.lld --strip-debug --gc-sections"
 set_other="AR=llvm-ar NM=llvm-nm STRIP=llvm-strip OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump HOSTAR=llvm-ar"
 
