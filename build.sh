@@ -1,5 +1,8 @@
+rm -rf out
+
+cp -f config.mak.1 config.mak
 make install -j$(nproc)
-mv -f config.mak.bak config.mak
+cp -f config.mak.2 config.mak
 make install -j$(nproc)
 
 out_dir=$PWD
